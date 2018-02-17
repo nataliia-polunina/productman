@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Raleway:400,700,900|Roboto:400,700,900');
 
-
 html, body {
 	box-sizing: border-box;
 	background-color: #eeeeee;
@@ -24,6 +23,12 @@ html, body {
 	text-decoration: none;
 	font: 900 48px 'Roboto', sans-serif;
 	color: #303030;
+}
+
+.header a:hover,
+.header a:focus,
+.header a:active {
+	color: #e10011;
 }	
 
 .menu {
@@ -81,7 +86,6 @@ html, body {
 
 .points {
 	display: inline-block;
-
 }	
 
 .point {
@@ -240,6 +244,7 @@ input[type="submit"]:active {
 	padding: 0;
 	margin:  50px 0;
 }
+
 .social__links li {
 	display: inline-block;
 }
@@ -248,61 +253,45 @@ input[type="submit"]:active {
 	width: 70px;
 	height: 70px;
 	display: inline-block;
-	background-repeat: no-repeat;
-	background-size: contain;
-	background-position: center;
 	background-color: #fff;
+	color: #979797;
 	border-radius: 50%;
 	margin-right: 20px;
+	font-size: 35px;
+	line-height: 70px;
 	transition: all .25s ease;
-}
-
-.social__link--fb {
-	background-size: 30% auto;
-	background-image: url(../img/fb.png);
-}
-
-.social__link--tw {
-	background-size: 40% auto;
-	background-image: url(../img/tw.png);
-}
-
-.social__link--yt {
-	background-size: 40% auto;
-	background-image: url(../img/yt.png);
-}
-
-.social__link--me {
-	background-size: 40% auto;
-	background-image: url(../img/me.png);
 }
 
 .social__link--fb:hover,
 .social__link--fb:focus,
 .social__link--fb:active {
-  background-color: #8ea9e2;
-  transition: all 0.5s ease;
+	color:  #fff;
+  	background-color: #3d5b99;
+  	transition: all 0.5s ease;
 }
 
 .social__link--tw:hover,
 .social__link--tw:focus,
 .social__link--tw:active {
-  background-color: #95d6ef;
-  transition: all 0.5s ease;
+	color:  #fff;
+  	background-color:  #00aced;
+  	transition: all 0.5s ease;
 }
 
 .social__link--yt:hover,
 .social__link--yt:focus,
 .social__link--yt:active {
-  background-color: #f99891;
-  transition: all 0.5s ease;
+	color:  #fff;
+  	background-color: #e10011;
+  	transition: all 0.5s ease;
 }
 
 .social__link--me:hover,
 .social__link--me:focus,
 .social__link--me:active {
-  background-color: #81f59e;
-  transition: all 0.5s ease;
+	color:  #fff;
+  	background-color: #59cd76;
+  	transition: all 0.5s ease;
 }
 
 .footer {
@@ -317,4 +306,10 @@ input[type="submit"]:active {
 .footer__copyright a {
 	text-decoration: none;
 	color: #303030;
+}
+
+.footer__copyright a:hover,
+.footer__copyright a:focus,
+.footer__copyright a:active {
+	color: #e10011;
 }
