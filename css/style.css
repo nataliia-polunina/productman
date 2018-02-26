@@ -136,7 +136,7 @@ html, body {
 .section__text {
 	font: 400 18px/1.5 'Raleway', sans-serif;
 	padding: 0 250px;
-	max-height: 50px;
+	max-height: 55px;
     overflow: hidden;
     margin-bottom: 60px;
 }
